@@ -1,0 +1,7 @@
+name: Learning GitHub Actions
+on: push
+jobs:
+  check-swallowing-capacity:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "L'action è partita correttamente!"
